@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+	
+<body>
+	<header>	
+			<!--Navbar-->
+				<nav class="navbar fixed-top navbar-expand-lg navbar-light grey">
+
+				  <!-- Navbar brand -->
+				  <a class="navbar-brand" href="#">Navbar</a>
+
+				  <!-- Collapse button -->
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+					aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+
+				  <!-- Collapsible content -->
+				  <div class="collapse navbar-collapse" id="basicExampleNav">
+
+					<!-- Links -->
+					<ul class="navbar-nav mr-auto">
+					  <li class="nav-item active">
+						<a class="nav-link" href="#">Home
+						  <span class="sr-only">(current)</span>
+						</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					  </li>
+
+					  <!-- Dropdown -->
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+						  aria-haspopup="true" aria-expanded="false">Dropdown</a>
+						<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+						  <a class="dropdown-item" href="#">Action</a>
+						  <a class="dropdown-item" href="#">Another action</a>
+						  <a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					  </li>
+
+					</ul>
+					<!-- Links -->
+
+					<form class="form-inline">
+					  <div class="md-form my-0">
+						<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+					  </div>
+					</form>
+				  </div>
+				  <!-- Collapsible content -->
+
+				</nav>
+				<!--/.Navbar-->
+			<div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;"> <!-- BILD MUSS NOCH AUSGEWECHSELT WERDEN -->
+					<!-- Mask & flexbox options-->
+					<div class="mask rgba-gradient align-items-center">
+					  <!-- Content -->
+					  <div class="container padding-top" >
+						<!--Grid row-->
+						<div class="row">
+						  <!--Grid column-->
+						  <div class="col-md-6 white-text text-center  mt-xl-5 mb-5  " >
+							<h1 class="h1-responsive font-weight-bold mt-sm-5">Janic Wermuth Photography  </h1>
+							<hr class="hr-light">
+							<h4 class="mb-4">Lets us take your Photos!</h4>
+							<a class="btn btn-white">Learn more</a>
+						  </div>
+							
+						  <!--Grid column-->
+						  <!--Grid column-->
+
+						  <!--Grid column-->
+						</div>
+						<!--Grid row-->
+					  </div>
+					  <!-- Content -->
+					</div>
+					<!-- Mask & flexbox options-->
+				  </div>
+				  <!-- Full Page Intro -->
+			</header>   
+		<main>
+
+			<!--Gallery-->
+			<div class="gallery-section">
+				<div class="inner-width">
+				  <h1>My Gallery</h1>
+				  <div class="border"></div>
+				  <div class="gallery">
+		  
+					<a href="assets/img/gallery/2.jpg" class="image">
+					  <img src="assets/img/gallery/2.jpg" alt="">
+					</a>
+		  
+					<a href="assets/img/gallery/3.jpg" class="image">
+					  <img src="assets/img/gallery/3.jpg" alt="">
+					</a>
+		  
+					<a href="assets/img/gallery/4.jpg" class="image">
+					  <img src="assets/img/gallery/4.jpg" alt="">
+					</a>
+
+					<a href="assets/img/gallery/5.jpg" class="image">
+						<img src="assets/img/gallery/5.jpg" alt="">
+					 </a>
+
+					 <a href="assets/img/gallery/6.jpg" class="image">
+						<img src="assets/img/gallery/6.jpg" alt="">
+					 </a>
+					
+					 <a href="assets/img/gallery/7.jpg" class="image">
+						<img src="assets/img/gallery/7.jpg" alt="">
+					 </a>
+
+				  </div>
+				</div>
+			  </div>
+		  
+		  
+			<script>
+			  $(".gallery").magnificPopup({
+				delegate: 'a',
+				type: 'image',
+				gallery:{
+				  enabled: true
+				}
+			  });
+			</script>
+		
+		</main>
+	</body>
+</html>
