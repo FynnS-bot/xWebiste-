@@ -4,6 +4,9 @@ header,
 .view {
   height: 100%;
 }
+body {
+	background: #f1f1f1;
+}
 
 @media (max-width: 740px) {
   html,
@@ -34,7 +37,8 @@ header,
   background-color: #808080 !important;
 }
 .navbar:not(.top-nav-collapse) {
-  background: transparent !important;
+  background: white !important;
+  opacity: 0.5;
 }
 
 
@@ -79,6 +83,13 @@ h6 {
 .inner-width{
   width: 100%;
   max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.inner-width-team{
+  width: 100%;
+  max-width: 800px;
   margin: auto;
   padding: 0 20px;
 }
@@ -141,3 +152,12 @@ h6 {
     flex: 100%;
   }
 }
+
+.x {
+	text-align: center;
+}
+
+
+
+
+
