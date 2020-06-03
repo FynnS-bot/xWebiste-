@@ -157,7 +157,13 @@ h6 {
 	text-align: center;
 }
 
-
-
-
+.video {
+  width: 50% !important;
+  height: auto !important;
+  margin: 0 auto;
+  display: block;
+}
+.footer-grey {
+	background-color: #808080;
+}
 

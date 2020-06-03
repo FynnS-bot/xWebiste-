@@ -3002,12 +3002,12 @@ a.waves-light {
 
 .btn-primary {
     color: #fff;
-    background-color: #4285f4 !important
+    background-color: #808080 !important
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #5a95f5
+    background-color: #757575
 }
 
 .btn-primary:focus,
@@ -3019,22 +3019,22 @@ a.waves-light {
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
-    background-color: #0b51c5
+    background-color: #808080
 }
 
 .btn-primary.dropdown-toggle {
-    background-color: #4285f4 !important
+    background-color: #808080 !important
 }
 
 .btn-primary.dropdown-toggle:hover,
 .btn-primary.dropdown-toggle:focus {
-    background-color: #5a95f5 !important
+    background-color: #808080 !important
 }
 
 .btn-primary:not([disabled]):not(.disabled):active,
 .btn-primary:not([disabled]):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
-    background-color: #0b51c5 !important;
+    background-color: #808080 !important;
     -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15)
 }
